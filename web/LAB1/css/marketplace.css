@@ -1,0 +1,157 @@
+#gallery-text:hover {
+    color: #701A1A;
+}
+.mp-card {
+    margin: 1vw 0;
+    align-items: center;
+    width: 100%;
+    height: 95%;
+}
+.card-body {
+    max-height: 55%;
+    padding: 1.2vw;
+}
+.wrap {
+    top: 0;
+    width: 100%;
+    height: 45%;
+    position: absolute;
+    box-sizing: border-box;
+    opacity: 0;
+    text-align: center;
+    background: rgba(27, 27, 27, .7);
+}
+.wrap:hover {
+    opacity: 100%;
+    transition: 0.5s ease-in-out;
+}
+.card-text {
+    padding: 0.5vw 0;
+    font-size: 1.1vw;
+    display: inline-block;
+    text-align: justify;
+}
+.mp-card h4 {
+    max-width: 100%;
+    padding: 0;
+}
+.card-body h6 {
+    font-size: 1.1vw;
+    padding: 0;
+    visibility: visible;
+    color: #701A1A;
+}
+.mp-button {
+    padding: 8px 0;
+    top: 40%;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    width: 65%;
+    font-family: 'Old Standard TT', serif;
+    letter-spacing: 0.05em;
+    color: #701A1A;
+    background: #fde5cd;
+    font-size: 1.1vw;
+}
+.hr {
+    opacity: 100%;
+    padding: 0.1vw;
+    color: #701A1A;
+    margin: 2vw auto;
+}
+.sum-text {
+    font-size: 2.5vw;
+    display: inline-block;
+    margin: auto 0;
+}
+.sum {
+    font-size: 2vw;
+    margin: auto 0;
+    justify-content: center;
+}
+#pay-button {
+    margin: 1vw 0 3vw 0;
+    width: 40%;
+}
+input {
+    width: 10%;
+}
+input [type="checkbox"] {
+    display: inline-block;
+    margin: auto;
+}
+label {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 1.1vw;
+    letter-spacing: 0.05em;
+}
+.mp-button:hover {
+    color: #701A1A;
+    background: #FFD6A5;
+    transition: 0.2s ease-in-out;
+}
+.mp-footer {
+    bottom: -69vw;
+}
+
+@media (max-width: 992px) {
+    .count {
+        width: 50%;
+    }
+    .wrap {
+        height: 60%;
+    }
+    h4 {
+        font-size: 2vw;
+    }
+    .card-body h6 {
+        font-size: 1.5vw;
+    }
+    .icon-globus::before, .icon-calendar::before, .icon-dollar::before {
+        margin: auto;
+        font-size: 2.1vw;
+    }
+    .card-text {
+        font-size: 1.6vw;
+    }
+    .mp-card {
+        margin: 2vw auto;
+        width: 70%;
+        height: 50vw;
+    }
+    .card {
+        height: 95%;
+    }
+    .mp-button {
+        padding: 10px 0;
+        font-size: 1.9vw;
+    }
+    label {
+        font-size: 1.7vw;
+    }
+    #pay-button {
+        padding: 6px 0;
+    }
+    .mp-footer {
+        z-index: -1;
+        bottom: 0;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .wrap {
+        height: 55%;
+    }
+}
+@media (max-width: 350px) {
+    .wrap {
+        height: 50%;
+    }
+    .mp-button {
+        padding: 5px 0;
+        font-size: 2.1vw;
+    }
+}

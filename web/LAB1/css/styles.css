@@ -1,0 +1,543 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #777;
+}
+h5 a, h5 a:hover {
+    text-decoration: none;
+    color: #701A1A;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body{
+    display: block;
+    background-color: #FFF8ED;
+    font-size: 16px;
+}
+
+.container {
+    width: 70%;
+}
+.navbar-brand {
+    vertical-align: center;
+    display: inline-block;
+    width: 5vw;
+}
+nav .navbar-brand {
+    margin: 0.5vw 23vw 0 0;
+}
+#end {
+    margin: auto 0;
+}
+#menu {
+    left: 0;
+}
+.menu-item, .menu-item:focus {
+    font-family: 'Old Standard TT', serif;
+    letter-spacing: 0.08em;
+    font-size: 1.3vw;
+    color: #777;
+    margin: 1vw 0 1vw 2vw;
+}
+.menu-item:hover {
+    color: black;
+}
+#header-span {
+    color: #701A1A;
+}
+.vensel {
+    display: block;
+    margin: 2.8vw auto;
+    height: 100%;
+    width: 25vw;
+}
+h1, h2 {
+    letter-spacing: 0.08em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+h1 {
+    font-size: 3.5vw;
+}
+h2{
+    margin-top: 2vw;
+    font-size: 2.5vw;
+}
+h3 {
+    font-size: 1.8vw;
+    font-family: 'Old Standard TT', serif;
+    color: #701A1A;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.5vw;
+}
+h5, h6 {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 1.1vw;
+    letter-spacing: 0.05em;
+}
+h6 {
+    padding: 0.15vw 0 0 1vw;
+    visibility: hidden;
+}
+
+h5 {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+h4 {
+    max-width: 180px;
+    font-family: 'Old Standard TT', serif;
+    letter-spacing: 0.05em;
+    font-size: 1.3vw;
+    padding: 1vw 0 0 1vw;
+}
+.h4-title {
+    visibility: hidden;
+}
+p {
+    font-size: 1.1vw;
+    font-family: 'Arsenal', sans-serif;
+    letter-spacing: 0.05em;
+}
+.text-end {
+    text-align: right;
+}
+.login {
+    width: 70vw;
+}
+.login-button {
+    text-decoration: none;
+    display: block;
+    margin: 0.5vw auto 1vw auto;
+    text-align: center;
+}
+header .login-button {
+    width: 20%;
+}
+.login-button:hover {
+    color: #701A1A;
+}
+button, .login-button {
+    font-family: 'Old Standard TT', serif;
+    letter-spacing: 0.05em;
+    color: #701A1A;
+    background: #fde5cd;
+    font-size: 1.1vw;
+    padding: 1vw 2vw;
+}
+
+header, #pros, #tours, #contacts {
+    position: relative;
+}
+.list-image {
+    margin: 0 2.5vw;
+    width: 10vw;
+    height: 100%;
+}
+.index-card {
+    align-items: center;
+    height: 13vw;
+    margin: 0 1vw;
+}
+.index-card-img {
+    height: 100%;
+    width: 100%;
+}
+.index-card:hover, button:hover, .login-button:hover {
+    transform: translateY(-0.2vw);
+    transition: 0.2s ease-in-out;
+}
+.intro {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 1vw 0 0 1vw;
+    color: #FFF8ED;
+}
+.intro:hover {
+    background: rgba(27, 27, 27, .7);
+}
+.intro:hover h6, .intro:hover .h4-title, .index-card, .intro, .index-card-img {
+    visibility: visible;
+}
+.index-card, .intro, .index-card-img {
+    border-radius: 0.2vw 0.2vw 0 0;
+    transition: 0.3s ease-in-out;
+}
+.index-card, button, .login-button {
+    box-shadow: 0.3vw 0.3vw 0.4vw rgba(110, 68, 11, 0.5);
+    transition: 0.2s ease-in-out;
+}
+.button {
+    width: 101%;
+}
+.icons-button, button, button:focus, .login-button, #menu-button {
+    border: none;
+    outline: none;
+}
+.index-card:hover button, #form-button:hover, .login-button:hover, #menu-button:hover, #menu-button:active {
+    background: #FFD6A5;
+    transition: 0.2s ease-in-out;
+}
+.icons, .icons:hover {
+    box-shadow: none;
+    color: #701A1A;
+    background: rgba(255, 248, 237, 0);
+    position: relative;
+    margin: 0 auto;
+    display: block;
+}
+.icons:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+#signpost {
+    margin-top: 70px;
+}
+.contacts {
+    display: block;
+    margin-top: 5vw;
+}
+.form-name {
+    text-align: center;
+    margin-top: 2.5vw;
+}
+.form-label {
+    font-family: 'Old Standard TT', serif;
+    font-size: 1.2vw;
+    color: #701A1A;
+    letter-spacing: 0.04em;
+}
+.feedback-form {
+    display: block;
+    margin: 0 auto;
+}
+#formTour, #formTour:disabled, .feedback-form, .form-input:focus, .form-input, textarea {
+    font-family: 'Arsenal', sans-serif;
+    letter-spacing: 0.04em;
+    position: relative;
+    display: block;
+    min-width: 120px;
+    width: 75vw;
+    max-width: 400px;
+    margin-bottom: 0.6vw;
+}
+textarea {
+    height: 100px;
+}
+#formTour {
+    font-size: 1vw;
+}
+.form-input {
+    border-radius: 0.2vw;
+    color: #545454;
+    font-size: 1vw;
+    padding: 0.4vw 0.3vw 0.5vw 0.7vw;
+    border: 1px solid #cecece;
+    outline: none;
+}
+#form-button {
+    display: block;
+    margin: 2vw auto 2.5vw auto;
+    min-width: 120px;
+    width: 75vw;
+    padding: 0.8vw 0;
+    max-width: 400px;
+}
+.index-footer {
+     text-align: center;
+     color: #FFF8ED;
+     background: #701A1A;
+     position: relative;
+     width: 100%;
+ }
+#footer {
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.footer-text {
+    font-size: 0.7vw;
+    padding: 1.5vw;
+}
+
+
+
+
+
+@media (max-width: 1300px) {
+    p {
+        font-size: 1.5vw;
+    }
+    h4 {
+        font-size: 1.4vw;
+    }
+    h6 {
+        font-size: 1.1vw;
+    }
+    .intro {
+        padding: 0.5vw 0 0 0.2vw;
+    }
+    .form-label {
+        font-size: 1.8vw;
+    }
+    .form-input, select, #formTour:disabled {
+        font-size: 1.5vw;
+    }
+    option, select:disabled, select::selection {
+        font-size: 2.2vw;
+        padding: 0.3vw 0 0.3vw 0.2vw;
+    }
+    .form-name {
+        font-size: 2.6vw;
+    }
+    h5 {
+        font-size: 1.8vw;
+    }
+    button, .login-button, #form-button {
+        font-size: 1.5vw;
+    }
+    #formTour {
+        font-size: 1.5vw;
+    }
+}
+
+
+@media (max-width: 900px) {
+    p {
+        font-size: 1.9vw;
+    }
+    h1 {
+        font-size: 4.2vw;
+    }
+    h2 {
+        font-size: 3.4vw;
+    }
+    .feedback-form {
+        width: 60vw;
+    }
+    h3 {
+        font-size: 2.1vw;
+    }
+    h4 {
+        font-size: 3.5vw;
+        max-width: 80%;
+        margin-bottom: 3vw;
+    }
+    h6 {
+        font-size: 2.8vw;
+    }
+    .intro {
+        vertical-align: center;
+        justify-content: center;
+        padding: 2.5vw 0 0 2.5vw;
+    }
+    #signpost {
+        margin-top: 0;
+    }
+    .button {
+        font-size: 2.5vw;
+    }
+    .login-button {
+        padding: 1vw 2vw;
+    }
+    .cards {
+        margin: 0 auto;
+        flex-direction: column;
+        width: 50vw;
+    }
+    .index-card, .index-card-img, .intro {
+        height: 30vw;
+    }
+    .button {
+        padding: 1vw 0;
+    }
+    .index-card-img {
+        height: 100%;
+    }
+    .index-card {
+        margin-bottom: 12vw;
+    }
+    .index-card button {
+        width: 100.5%;
+        padding: 1.8vw 0;
+    }
+    #formTour, .feedback-form, input, textarea, #form-button {
+        width: 50vw;
+    }
+    textarea {
+        height: 10vw;
+    }
+    .footer-text {
+        font-size: 1vw;
+    }
+
+}
+
+
+
+@media (max-width: 800px) {
+    .login-button {
+        font-size: 2.5vw;
+        width: 60%;
+        padding: 1vw 2vw;
+    }
+}
+
+
+@media (max-width: 770px) {
+    h3 {
+        font-size: 3vw;
+    }
+    p {
+        font-size: 2.2vw;
+    }
+    .list-image {
+        width: 18vw;
+    }
+
+    .pros {
+        margin: 0 auto;
+        flex-direction: column;
+        width: 100%;
+    }
+    .button {
+        z-index: 1;
+        padding: 2vw 0;
+    }
+    .index-card-img:hover {
+        z-index: -1;
+    }
+    .intro, .button {
+        height: 100%;
+        margin: 0;
+    }
+    .index-card {
+        height: 100%;
+        margin-bottom: 3vw;
+    }
+    .pros h3, .pros p {
+        align-items: center;
+        text-align: center;
+    }
+    .list-image {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        height: 100%;
+    }
+    .l-img-2 {
+        order: 1;
+    }
+    .pros-item-2 {
+        order: 2;
+    }
+    .l-img-4 {
+        order: 3;
+    }
+    .pros-item-4 {
+        order: 4;
+    }
+    .contacts {
+        width: 20vw;
+    }
+    .contacts div {
+        justify-content: right;
+        width: 50vw;
+        margin-left: 100%;
+        margin-bottom: 1vw;
+    }
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-icon {
+        margin: auto auto;
+    }
+    .contacts p {
+        text-align: left;
+        font-size: 2.2vw;
+        width: 20vw;
+    }
+    .contacts span {
+        font-size: 3vw;
+    }
+    [class^="icon-"]  {
+        margin-right: 0;
+    }
+}
+
+
+@media (max-width: 500px) {
+    p {
+        font-size: 2.5vw;
+    }
+    h1 {
+        font-size: 4.4vw;
+    }
+    h2 {
+        font-size: 3.6vw;
+    }
+    .feedback-form, .form-input:focus {
+        max-width: 60vw;
+        width: 60vw;
+    }
+    h3 {
+        font-size: 3vw;
+    }
+    h4 {
+        font-size: 3.5vw;
+        max-width: 80%;
+        margin-bottom: 3vw;
+    }
+    h5 {
+        font-size: 2.2vw;
+    }
+    h6 {
+        font-size: 2.6vw;
+    }
+    .list-image {
+        width: 20vw;
+    }
+    .intro {
+        padding: 2.5vw 0 0 2.5vw;
+    }
+    .form-label {
+        font-size: 2.7vw;
+    }
+    #formTour, option, .form-input, textarea {
+        border-radius: 2px;
+        padding: 0.2vw 0 0.2vw 0.8vw;
+        font-size: 3.3vw;
+    }
+    .form-label, #form-button {
+        font-size: 3.3vw;
+    }
+    .feedback-form {
+        justify-content: center
+    }
+    textarea {
+        height: 20vw;
+    }
+    #form-button  {
+        margin-left: 0;
+    }
+}
+
+
+@media (max-width: 450px) {
+    p {
+        margin-bottom: 1vw;
+    }
+}
